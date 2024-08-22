@@ -79,3 +79,10 @@ if __name__ == "__main__":
         print(f"Username: {result['username']}, Password: {result['password']}")
     else:
         print("Password not found.")
+
+
+## Update 22/08/24
+# Includes compatibility with multiple Operating Systems
+# Encryption Improvements
+# PBKDF2 to derive a key from the MP
+# Fernet Symmetric Encryption
