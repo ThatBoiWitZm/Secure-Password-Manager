@@ -86,3 +86,60 @@ if __name__ == "__main__":
 # Encryption Improvements
 # PBKDF2 to derive a key from the MP
 # Fernet Symmetric Encryption
+
+# CO-OP COLAB (GITHUB)
+
+# JAVASCRIPT IMPLEMENTATION (THROUGH XCODE COLABORATOR)
+
+# WITH ARRAYS
+public static boolean occursExactlyOnce(int[] data, int key) {
+   int count = 0;
+   boolean found = false;
+   for(int i=0; i < data.length; i++) {
+      if(data[i] == key) { //if found
+         if(found) { //if found before
+            return false; //this is the second time
+         }
+         else { //if not found before
+            found = true; //now it's found
+         }
+      }
+   }
+   return found == true; //ensure found once
+}
+
+# WITH ArrayLists
+ public static boolean occursExactlyOnce(ArrayList<Integer> list, int key) {
+   if(list.indexOf(key) >= 0)) { //if found
+      if(list.indexOf(key) == list.lastIndexOf(key) { //if first and last occurrence is the same
+    return true;
+      }
+   }
+   return false; //in ALL other cases
+}
+
+#Creating An ArrayList Object
+ArrayList<E> name = new ArrayList<E>();
+
+#or
+
+ArrayList<E> name = new ArrayList<>();
+
+
+
+#SQL
+create table sender (
+senderID char(4) primary key,
+SenderName varchar(30),
+senderDOB date,
+SenderEmail varchat(50),
+senderAdress varchar(100));
+
+create table Delivery (
+deliveryID int,
+DeliveryAdress varchar(100),
+deliveryWeight float;
+DeliveryCost float,
+deliveryStatus varchat(10),
+
+
